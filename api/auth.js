@@ -27,6 +27,6 @@ module.exports = app => {
         } else {
             res.status(400).send('E-mail não encontrado')
         }
-
     }
+    return { signin }
 }
